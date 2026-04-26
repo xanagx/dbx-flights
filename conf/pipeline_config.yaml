@@ -1,0 +1,9 @@
+catalog: workspace
+bronze_schema: flights_bronze
+silver_schema: flights_silver
+gold_schema: flights_gold
+
+raw_paths:
+  flights: dbfs:/Volumes/workspace/default/etl_raw/flights.csv
+  airlines: dbfs:/Volumes/workspace/default/etl_raw/airlines.csv
+  airports: dbfs:/Volumes/workspace/default/etl_raw/airports.csv
